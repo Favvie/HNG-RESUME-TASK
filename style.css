@@ -1,0 +1,58 @@
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+.logo {
+	font-family: "Fredoka One", cursive;
+}
+
+.first-text {
+	color: #ffab6b;
+	font-size: large;
+}
+
+.hero-section {
+	background-color: #fafafc;
+}
+
+.hire-me {
+	background-color: #ffab6b;
+	/* color: #0a0b5e; */
+}
+
+.portfolio {
+	border: 1px solid #ffab6b;
+}
+.image {
+	width: 100%;
+}
+
+.what-i-offer-section {
+	background-color: #f1f4fb;
+}
+
+.andela,
+.zuri,
+.youtube,
+.freecodecamp {
+	width: 50%;
+}
+
+@media (min-width: 768px) {
+	.image {
+		width: 45%;
+	}
+	.left-col {
+		margin-top: 5em;
+		/* margin-bottom: 2em; */
+		/* max-width: 50%; */
+	}
+}
+
+@media (min-width: 1200px) {
+	.left-col {
+		margin-top: 7em;
+		/* margin-bottom: 2em; */
+		/* max-width: 50%; */
+	}
+}
