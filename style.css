@@ -1,3 +1,8 @@
+:root {
+	--primary: #ffab6b;
+	--secondary: #0a0b5e;
+}
+
 body {
 	font-family: "Poppins", sans-serif;
 }
@@ -27,7 +32,7 @@ body {
 	width: 100%;
 }
 
-.what-i-offer-section {
+.qualification-section {
 	background-color: #f1f4fb;
 }
 
@@ -55,4 +60,49 @@ body {
 		/* margin-bottom: 2em; */
 		/* max-width: 50%; */
 	}
+}
+
+.skill {
+	width: 100%;
+	background: #a2a2a5;
+	height: 7px;
+	position: relative;
+}
+.bar {
+	position: absolute;
+	background: var(--primary);
+	height: 100%;
+}
+
+.html {
+	width: 90%;
+}
+
+.css {
+	width: 75%;
+}
+
+.js {
+	width: 50%;
+}
+
+.ts {
+	width: 30%;
+}
+
+.react {
+	width: 60%;
+}
+
+.redux {
+	width: 30%;
+}
+
+.overlay:hover {
+	background-color: #0a0b5e;
+	opacity: 0.5;
+}
+
+.contact-section {
+	background-color: #f1f4fb;
 }
